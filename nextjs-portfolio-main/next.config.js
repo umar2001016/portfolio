@@ -1,4 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = nextConfig
+// next.config.js
+module.exports = {
+    basePath: '/portfolio',
+    assetPrefix: '/portfolio/',
+    trailingSlash: true,
+  };
+  
